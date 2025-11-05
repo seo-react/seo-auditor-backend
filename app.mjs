@@ -9,11 +9,12 @@ import { crawlSite } from './crawler.mjs';
 
 
 const db = await mysql.createConnection({
-  host: 'localhost',
-  user: ' abdiel19_dev',
-  password: 'NovaSenha@2025',
-  database: ' abdiel19_auditor'
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_NAME
 });
+
 
 const app = express();
 
