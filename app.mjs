@@ -10,9 +10,9 @@ import { crawlSite } from './crawler.mjs';
 
 const db = await mysql.createConnection({
   host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'seo_auditor'
+  user: ' abdiel19_dev',
+  password: 'NovaSenha@2025',
+  database: ' abdiel19_auditor'
 });
 
 const app = express();
