@@ -4,7 +4,7 @@ import puppeteer from 'puppeteer';
 import lighthouse from 'lighthouse';
 import { URL } from 'url';
 import mysql from 'mysql2/promise';
-import fetch from 'node-fetch';
+import fetch from 'node-fetch-native';
 import { crawlSite } from './crawler.mjs';
 
 
